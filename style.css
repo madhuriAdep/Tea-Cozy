@@ -1,0 +1,154 @@
+/* Universal styles */ 
+
+body {
+    background-color: black;
+    opacity: 0.9;
+}
+
+h1, h2, h3, h4, h5, p, a {
+    color: grey;
+    font-family: Helvetica;
+}
+
+.sect {
+    margin-left: 50px;
+}
+
+
+/* Header */
+
+header .menu-bar{
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 20px;
+}
+
+header .menu {
+    margin-right: 30px;
+}
+
+header .menu a {
+    margin: 5px;
+    font-size: 22px;
+}
+
+
+/* Main */
+
+/* Banner */
+
+#mission h2, h4 {
+    text-align: center;
+}
+
+#banner {
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("images/img-mission-background.jpg");
+    margin: auto;
+}
+
+#mission {
+    background-color: black;
+    width: 1200px;
+}
+
+/* Favorite */
+
+#fav {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    width: 1000px;
+    align-items: center;
+}
+
+#fav img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    /* padding: 10px; */
+}
+
+#fav h2{
+    text-align: center;
+}
+
+#fav h2.subhead {
+    text-align: center;
+}
+
+#imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#imgs .img{
+    margin: 0px;
+    flex-basis: 33%;
+ }
+
+/* Location */
+
+.location {
+    background-image: url("images/img-locations-background.jpg");
+    height: 500px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.location h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* .top-galeria {
+    display: flex;
+    justify-content: center;
+} */
+
+.bottom-location  .conteiners {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.conteiner {
+    background-color: black;
+    width: 300px;
+    height: 250px;
+    margin: 40px;
+    opacity:1;
+}
+
+.conteiner h3 {
+    text-align: center;
+}
+
+/* Footer */
+footer{
+    height: 200px;
+}
+.info {
+    text-align: center;
+}
+
+.copy {
+    text-align: left;
+    margin: 20px;
+}
